@@ -1,0 +1,524 @@
+@font-face {
+	src: url(fuentes/Billabong.ttf);
+	font-family: Billabong;
+}
+
+body{
+	background-color: rgb(251, 251, 251);
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+header{
+	background-color: white;
+	margin-top: 0;
+	padding-top: 0px;
+	padding-bottom: 0;
+	text-align: center;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1px solid;
+	border-color:rgb(200, 200, 200);
+	top: 0;
+
+	position: fixed;
+}
+
+#logo{
+	width: 23px;
+	display: inline-block;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right: 1px black solid;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.izq a{
+	justify-content: center;
+}
+
+.izq a h1{
+	font-family: Billabong;
+	display: inline-flex;
+	margin-left:  15px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding-top: 0;
+	vertical-align: top;
+}
+
+header .iconos{
+	width: 25px;
+	margin-left: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0 0;
+}
+header a{
+	text-decoration: none;
+	display: inline-block;
+}
+.izq, .der{
+	display: inline-block;
+	width: 33%;
+}
+.centro{
+	display: inline-block;
+	width: 200;
+	margin: 0 0;
+	vertical-align: top;
+	margin-top: 22px;
+}
+
+.der{
+	margin: 0 0;
+	vertical-align: top;
+	padding: 0 0;
+}
+
+.izq a{
+	color: black;
+}
+.centro input[type="text"]{
+	width: 200px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid;
+	border-color: rgb(238, 238, 238);
+	background-color: rgb(251, 251, 251);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.contenido{
+	width: 90%;
+	max-width: 550px;
+	padding: 0 0;
+	margin-top: 100px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 5%;
+	margin-bottom: 50px;
+}
+
+.publicacion{
+	background-color: white;
+	border: 1px solid;
+	border-color:rgb(200, 200, 200);
+	margin-top: 50px;
+}
+
+.encabezado{
+	text-align: left;
+	border-bottom: 0.5px rgb(200, 200, 200) solid;
+}
+
+.encabezado a{
+	text-decoration: none;
+}
+
+.encabezado a .perfil_publicacion{
+	width: 35px;
+	border-radius: 50%;
+	height: 35px;
+	display: inline-block;
+	margin: 10px 5px;
+	margin-left: 10px;
+}
+
+.encabezado a h1{
+	font-family: helvetica;
+	font-size: 13px;
+	margin: 0 0;
+	margin-top: 20px;
+	margin-left: 5px;
+	padding: 0 0;
+	display: inline-block;
+	vertical-align: top;
+	color: black;
+}
+
+.imagen{
+	max-width:  100%;
+	max-height: 500px;
+}
+
+.pie_imagen{
+	border-bottom: 0.5px rgb(200, 200, 200) solid;
+	text-align: left;
+}
+
+.pie_imagen .iconos{
+	max-width: 30px;
+	max-height: 30px;
+	margin-left: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0 0;
+}
+
+#com{
+	max-width: 25px;
+	max-height: 25px;
+	padding: 2.5px 2.5px;
+}
+
+.pie_imagen h5{
+	margin: 0 0;
+	margin-left: 15px;
+	margin-top: 5px;
+	padding: 0 0;
+	font-family: helvetica;
+}
+
+.pie_imagen p{
+	font-family: helvetica;
+	font-size: 15px;;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.pie_imagen p a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.comentario{
+	margin: 0 0;
+	padding: 0 0;
+}
+.comentario input[type="text"]{
+	width:75%;
+	margin: 0 0;
+	border:0;
+	padding: 20px 0;
+	padding-left: 5%;
+	display: inline-block;
+}
+
+.comentario input[type="submit"]{
+	display: inline-block;
+	width: 19%;
+	margin: 0 0;
+	padding: 20px 5px;
+	font-family: helvetica;
+	font-weight: bold;
+	border: 0;
+	background-color: white;
+	color: rgb(44, 163, 208);
+	cursor: pointer;
+}
+
+.usuario_activo{
+	position: fixed;
+	margin-left: 64%;
+	margin-right: 10%;
+	padding-right: 100px;
+	margin-top: 150px;
+	text-align: left;
+}
+.caja_invisible{
+	width: 250px;
+	margin: 0 auto;
+	padding: 0 0;
+	margin-top: 150px;
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 10%;
+}
+
+.texto{
+	font-family: helvetica;
+	font-size: 1em;
+	margin: 0;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.texto a{
+	text-decoration: none;
+}
+
+.texto a h1{
+	font-size: 13px;
+	margin: 0 0 ;
+	padding: 0 0 ;
+	color: black;
+}
+.texto h4{
+	font-size: 0.7em;
+	margin: 0 0 ;
+	padding: 0 0 ;
+	color: #999;
+	font-weight: normal;
+}
+
+.foto_perfil{
+	width: 55px;
+	border-radius: 50%;
+	height: 55px;
+	display: inline-block;
+}
+
+
+.contenido_perfil{
+	margin-top: 150px;
+}
+
+.foto_perfil_perfil{
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: top;
+	width: 120px;
+	height: 120px;
+}
+
+.info_perfil{
+	text-align: left;
+	display: inline-block;
+	margin:  0 0;
+	margin-left: 50px;
+	padding: 0 0;
+}
+
+.info_perfil h1{
+	display: inline-block;
+	font-size: 28px;
+	font-family: helvetica;
+	font-weight: normal;
+	margin:  0 0;
+}
+.numeros h4{
+	display: inline-block;
+	font-family: helvetica;
+	font-size: 16px;
+	font-weight: normal;
+	margin-right: 17.6px;
+	margin-bottom: 17.6px;
+	margin-top: 17.6px;
+}
+
+
+.info_perfil input[type='submit']{
+	margin-left: 10px;
+	display: inline-block;
+	font-family: helvetica;
+	font-size: 14px;
+	border-radius: 4px;
+	border: 1px solid;
+	border-color: rgb(238, 238, 238);
+	background-color: rgb(251, 251, 251);
+	padding: 5px 9px;
+	cursor: pointer;
+}
+
+.info_perfil h3{
+	font-size: 19px;
+	font-family: helvetica;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.info_perfil h5{
+	margin-top: 0;
+	font-size: 16px;
+	font-family: helvetica;
+	font-weight: normal;
+}
+
+.fotos{
+	width: 80%;
+	border-top: 1px rgb(238, 238, 238) solid;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding-top: 53px;
+}
+
+.fotos a{
+	text-decoration: none;
+}
+
+.imagenes_perfil{
+	display: inline-block;
+	width: 289.6px;
+	height: 289.6px;
+	margin-right: 28px;
+	margin-bottom: 28px;
+}
+
+.editar{
+	margin-top: 150px;
+}
+
+.cambiar_foto{
+	display: inline-block;
+}
+.cambiar_foto img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.cambiar_foto input[type="submit"]{
+	width:  80%;
+	border-radius: 4px;
+	border: 0 ;
+	margin-top: 15px;
+	margin-bottom:  10px;
+	padding-top: 7px;
+	padding-bottom:  7px;
+	background-color: rgb(44, 163, 208);
+	color: white;
+	cursor: pointer;
+	font-family: helvetica;
+	font-weight: bold;
+}
+
+#foto{
+	width: 80%;
+	margin-left: 10px;
+	display: inline-block;
+	font-family: helvetica;
+	font-size: 14px;
+	border-radius: 4px;
+	border: 1px solid;
+	border-color: rgb(238, 238, 238);
+	background-color: rgb(251, 251, 251);
+	padding: 5px 9px;
+	cursor: pointer;
+}
+
+.form_editar{
+	width: 355px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+	font-size: 20px;
+	font-family: helvetica;
+	margin-left: 50px;
+}
+.form_editar input[type="text"]{
+	width: 79%;
+	border-radius: 4px;
+	border: 1px solid;
+	border-color: rgb(238, 238, 238);
+	background-color: rgb(251, 251, 251);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	margin-left:  auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	font-family: helvetica;
+	font-size: 12px;
+	color: rgb(90, 90, 90);
+}
+
+#descripcion{
+	padding-bottom: 100px;
+}
+
+.form_editar input[type="submit"]{
+	width:  80%;
+	border-radius: 4px;
+	border: 0 ;
+	margin-top: 15px;
+	margin-bottom:  10px;
+	padding-top: 7px;
+	padding-bottom:  7px;
+	background-color: rgb(44, 163, 208);
+	color: white;
+	cursor: pointer;
+	font-family: helvetica;
+	font-weight: bold;
+}
+
+
+.subir_foto{
+	width: 350px;
+	margin-left: auto;
+	margin-right:  auto;
+}
+
+.subir_foto input[type="submit"]{
+	width:  80%;
+	border-radius: 4px;
+	border: 0 ;
+	margin-top: 15px;
+	margin-bottom:  10px;
+	padding-top: 7px;
+	padding-bottom:  7px;
+	background-color: rgb(44, 163, 208);
+	color: white;
+	cursor: pointer;
+	font-family: helvetica;
+	font-weight: bold;
+}
+
+.subir_foto input[type="text"]{
+	width: 79%;
+	border-radius: 4px;
+	border: 1px solid;
+	border-color: rgb(238, 238, 238);
+	background-color: rgb(251, 251, 251);
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 5px;
+	margin-left:  auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	font-family: helvetica;
+	font-size: 12px;
+	color: rgb(90, 90, 90);
+}
+
+@media only screen and (max-width: 639px) {
+	.centro{
+		display: none;
+	}
+	.izq, .der{
+		width: 45%;
+	}
+	header{
+		padding-bottom: 10px;
+	}
+}
+@media only screen and (max-width: 374px) {
+	.izq a h1{
+		display: none;
+		margin-right: 0;
+		padding-right: 0;
+	}
+	#logo{
+		border:0;
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 1006px) {
+	.caja_invisible{
+		display: none;
+	}
+	.usuario_activo{
+		display: none;
+	}
+	.contenido{
+		margin-right: 5%;
+	}
+}
+@media only screen and (max-width: 460px) {
+	.comentario{
+		display: none;
+	}
+}
